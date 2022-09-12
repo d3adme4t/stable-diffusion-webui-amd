@@ -1,3 +1,13 @@
+## Instructions for use on AMD Navi (RX 6800/6900)
+
+The docker image used to build the container has been changed to use a ROCm image and references to the ROCm version of PyTorch added to the conda environment.yml file.
+
+1. Clone this repo and cd into it
+2. Copy the `.env_docker.example` file to `.env_docker`: `cp .env_docker.example .env_docker`
+3. Ensure you have docker and docker-compose installed then run `docker-compose up`, this will pull down the source image and then build a new container. This can take 15 min or more as it will download a 1G+ image and then all of the Stable Diffusion models which are several GBs.
+4. You should see a message like this once the container is ready: `Running on local URL:  http://localhost:7860/`. You can then broser to the URL to access the web UI.
+
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb)
 
 # Installation instructions for [Windows](https://github.com/sd-webui/stable-diffusion-webui/wiki/Installation), [Linux](https://github.com/sd-webui/stable-diffusion-webui/wiki/Linux-Automated-Setup-Guide), or [Google Colab](https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb)
