@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Instructions for use on AMD Navi (RX 6800/6900)
 
 The docker image used to build the container has been changed to use a ROCm image and references to the ROCm version of PyTorch added to the conda environment.yml file.
@@ -10,9 +9,6 @@ The docker image used to build the container has been changed to use a ROCm imag
 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb)
-=======
-# Web based UI for Stable Diffusion by [sd-webui](https://github.com/sd-webui)
->>>>>>> merge
 
 ## [Visit sd-webui's Discord Server](https://discord.gg/gyXNe4NySY) [![Discord Server](https://user-images.githubusercontent.com/5977640/190528254-9b5b4423-47ee-4f24-b4f9-fd13fba37518.png)](https://discord.gg/gyXNe4NySY)
 
